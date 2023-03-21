@@ -1,0 +1,23 @@
+2 types of lists
+basic list 
+and 
+nestled list
+Get list of tickets by external id - retrieves a list of child records based on 
+                                    the parent recorde's identifier
+Lists are data structures consisting of a collection of values or variables
+Lists allow the simplifying of operations and actions on multi row outputs
+Multiple Triggers and actions can result in a list type outputs
+ such atlassian
+        ->search records 
+        ->get list of related records
+        ->csv rows
+* Creating Custom Lists
+we can create our cutom list by lists by workato
+Then we can use it inside for each loop
+In this we can map the output of  for each loop to the input field of each Custom User.
+* Accessing Information in Lists
+* Searching and referencing specific elements in lists
+eg:Where and pluck
+where is like normal where condition which checks certain specific conditions
+pluck :-- retrieve value by field name.This will retrieve only the colums which have 
+          been specified

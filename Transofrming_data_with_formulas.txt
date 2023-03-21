@@ -1,0 +1,34 @@
+1) String Formulas 
+string formulas related to :
+   * Manupulate text
+   * Manupulate text case
+   * Apply condition
+   * convert strings to other data types or formats
+
+---- Manipulate Test ----
+formating of strings with formulas
+-- STRIP --
+string.strip - removes whitespace at start and end of string
+-- LSTRIP --
+string.lstrip - removes whitespace at the beginning
+string.parameterize - replaces all special characters in a string
+string.transliterate - replaces all non ascii characters with ascii approximation
+---- Manipulate Test Case ----
+eg: capitalize
+---- Apply Conditions ----
+eg:
+string.present? check ? is present in the string
+string.match?(pattern)
+"Jean Marie".match?(/Marie/) -- return True
+---- Convert Stirngs to other data types ----
+sting.split(char) -- split by char and return array of stings
+string.length
+string.slice(start,end)
+
+2) Number Formulas - already know
+3) Working with date and datetime Formulas
+---- Understanding date formats ----
+Date yyyy-mm-dd
+Date with time and timezone offset yyyy-mm-DDThh:mm:ss+hh:mm 
+---- List Formulas ----
+---- Ternary Conditions ----
